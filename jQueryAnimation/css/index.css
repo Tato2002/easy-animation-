@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.bi {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 50px;
+	color: royalblue;
+	background-color: skyblue;
+	padding: 25px 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.bi:hover {
+	opacity: 0.8;
+}
+
+form {
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	background-color: skyblue;
+	width: 500px;
+	height: 500px;
+	border-radius: 200px;
+}
+
+form input {
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 3px solid white;
+	text-align: center;
+	width: 300px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
